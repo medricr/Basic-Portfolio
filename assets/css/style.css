@@ -1,16 +1,6 @@
 /*index.html*/
 header {
-    background-color: fuchsia;
-}
-li {
-    display: inline;
-}
-
-a {
-    float: right;
-    display: block;
-    background-color: aquamarine
-
+    background: fuchsia;
 }
 /*style.css*/
 #message_box {
