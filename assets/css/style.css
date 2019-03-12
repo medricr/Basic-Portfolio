@@ -1,9 +1,35 @@
 /*index.html*/
-header {
-    background: fuchsia;
+#nav_bar {
+    width: 100%;
+    overflow: auto;
+    background: darkcyan;
+    color: whitesmoke;
+}
+
+h2 {
+    float: left;
+    width: 30%;
+}
+
+li {
+    float: right;  
+}
+img {
+    clear: both;
+    height: 150px;
+    width: 300px;
 }
 /*style.css*/
-#message_box {
+/*specifies the properties of the name box*/
+#name_box {
     width: 300px;
-    height: 60px;
+}
+/*specifies the properties of the email box*/
+#email_box {
+    width: 300px;
+}
+/*specifies the properties of the message box*/
+#message_box {
+    width: 400px;
+    height: 150px;
 }
