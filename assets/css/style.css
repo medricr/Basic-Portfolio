@@ -1,21 +1,59 @@
 /*index.html*/
+
 #nav_bar {
-    width: 100%;
+    width: 960px;
+    margin: 90px auto;
     overflow: auto;
-    background: darkcyan;
-    color: whitesmoke;
+    background: #ffffff;
+    border-color: #cccccc;
+    border-bottom: 5px;
+    color: black;
 }
 
 h2 {
     float: left;
-    width: 30%;
+    width: 20%;
+    overflow: hidden;
+    background: darkcyan;
+    color: whitesmoke;
 }
 
 li {
-    float: right;  
+    float: right;
+    padding: 5px;
+    margin: auto;
+    list-style: none;
+    display: block;
+    text-align: center;
+} 
+
+li:hover {
+    background: salmon;
+}
+a {
+    text-decoration: none;
+}
+#center_nav_link {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 4px;
+}
+
+
+#bio {
+    width: 960px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -480px;
+    border: 3px solid black;
+}
+p {
+    float: right;
 }
 img {
-    clear: both;
+    float: left;
     height: 150px;
     width: 300px;
 }
