@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
  .container {
-     width: 960px;
-     background: wheat;
+     width: 100%;
+     background: white;
     
         margin: 0 auto;
         margin-bottom: 0;
@@ -12,12 +12,16 @@
 
 
  }
-.wrapper {
-    width: 960px; 
-}
 
+ .wrapper {
+     width: 960px;
+     margin: 0 auto;
+ }
 .logo {
     padding-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+    background: cornflowerblue
 }
  .nav_bar {
      float: right;
@@ -25,7 +29,13 @@
      
  }
  a{
-     margin: 20px;
+     margin-left: 20px;
+     padding: 10px;
+     text-decoration: none;
+ }
+
+ a:hover {
+     background: cornflowerblue;
  }
 
  #bio::before {
@@ -45,7 +55,13 @@
     color: wheat;
  }
 h3 {
-    padding-left: 10px
+    padding-left: 10px;
+    font-size: 20px;
+    color: wheat;
+}
+
+hr {
+    width: 940px;
 }
  img {
      float: left;
@@ -60,4 +76,14 @@ h3 {
      margin: 0;
      padding: 0;
     background: cornflowerblue;
+ }
+
+ /*contact.html*/
+ form {
+     padding-left: 10px;
+     padding-bottom: 10px;
+ }
+
+ #name_box {
+     width: 300px;
  }
